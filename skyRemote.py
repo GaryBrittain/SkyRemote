@@ -9,7 +9,7 @@ try:
 	from urllib2 import URLError, HTTPError
 	from platform import system as thisSystem
 	import xml.dom.minidom as minidom
-	import IN,urllib,urllib2
+	import urllib,urllib2
 	import readline,time
 	import pickle
 	import struct
