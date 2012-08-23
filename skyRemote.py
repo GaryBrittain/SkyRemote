@@ -1156,7 +1156,7 @@ def host(argc,argv,hp):
 
 				#Remove the above inputs from the command history				
 				while inArgCounter:
-					readline.remove_history_item(readline.get_current_history_length()-1)
+					#readline.remove_history_item(readline.get_current_history_length()-1)
 					inArgCounter -= 1
 
 				#print 'Requesting',controlURL
